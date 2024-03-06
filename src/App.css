@@ -1,0 +1,29 @@
+/* .App {
+  text-align: center;
+} */
+
+body{
+  background-color: black;
+  /* scrollbar-width: none; */
+} 
+
+.twitter {
+  /* background-color: black; */
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 20%;
+  position:fixed;
+}
+.miid {
+  width: 50%;
+  border-right: 2px solid rgb(31, 27, 27);
+  border-left: 2px solid rgb(31, 27, 27);
+  margin-left: 20%;
+
+}
+.rightt {
+  width: 20%;
+}

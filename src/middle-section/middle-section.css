@@ -1,0 +1,108 @@
+.middle {
+    /* width: 50%; */
+    /* height: 1vh; */
+}
+
+.mid-one {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-left: 2px solid rgb(161, 150, 150); */
+    border-bottom: 2px solid rgb(31, 27, 27);
+    /* position: fixed; */
+}
+.topbar {
+    color: whitesmoke;
+    width: 100px;
+    height: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.topbar:hover {
+    /* background-color: rgb(161, 150, 150); */
+}
+.iconbar {
+    cursor: pointer;
+    color: whitesmoke;
+    padding: 10px;
+
+}
+.iconbar:hover {
+    border-radius: 50%;
+    background-color: rgb(161, 150, 150);
+}
+.topbar:active {
+    border-bottom: solid 2px purple;
+    color: purple;
+}
+.topbar:hover {
+    text-shadow: 10px 10px 200px purple;
+
+}
+.topbar::selection {
+    user-select: none;
+
+}
+
+.mid_two {
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    border-bottom: 2px solid rgb(31, 27, 27);
+
+}
+.p_and_text {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: blue; */
+    
+}
+.phoro_mid {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.text_mid {
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(161, 150, 150);    
+}
+.icons_mid_two {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons_mid_two_icons {
+    width: 50%;
+    padding-left: 70px;
+    color: rgb(78, 19, 78);
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.iccon_mid_two {
+    margin-left: 10px;
+}
+
+.text_mid_two {
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 255, 0.61);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: silver;
+}
