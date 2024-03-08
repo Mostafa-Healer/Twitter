@@ -20,7 +20,7 @@ export default function Middle(){
             <div className='mid_two'>
                 <div className='p_and_text'>
                     <img className='phoro_mid' src={myphoto}></img>
-                    <p className='text_mid'>What is happening?!</p>
+                    <input  className='text_mid' placeholder='What is happening?!'></input>
                 </div>
                 <div className='icons_mid_two'>
                     <div className='icons_mid_two_icons'>

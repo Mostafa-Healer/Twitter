@@ -18,7 +18,7 @@ export default function Posts (props) {
                     <p>{props.paragraph}</p>
                     <img src={props.third_mid_posts_second}></img>
                 </div>
-
+                
                 <div className='third_mid_posts_third'>
                     <div>
                         <i class="fa-regular fa-comment blue"></i>
